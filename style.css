@@ -735,3 +735,13 @@ img, .include-icon, .exclude-icon {
     line-height: 1.5;
     color: #666;
   }
+.deposit {
+    font-size: 18px;
+    color: #ff6347; /* You can change this to a color that fits your theme */
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.deposit strong {
+    color: #2a9d8f; /* Color for the deposit amount, you can adjust this as well */
+}
