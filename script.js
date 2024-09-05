@@ -139,3 +139,9 @@ function validateEmail(email) {
 //         document.getElementById('confirmation-message').style.display = 'block';
 //     }
 // });
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  const heroBanner = document.querySelector(".hero-banner");
+  heroBanner.style.backgroundImage = "url('images/ghana-banner.webp')";
+});
